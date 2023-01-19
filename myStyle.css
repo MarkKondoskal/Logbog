@@ -1,28 +1,134 @@
 
 
 body {
-  background-color: rgb(91, 146, 229);
+  background-color: white;
 }
 
 /* overskrift h1 design */
 h1{
-font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 p{
-background-color: rgb(22,200,200)
+  background-color: transparent;
 }
 
-
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  }
 
 .kasse{
-float: right;
-background-color: rgb(200,0,0);
-width: 40%;
-height: 40%;
-overflow: hidden;
-font-size: 40;
-border-style: dotted;
+  float: right;
+  background-color: rgb(200,0,0);
+  width: 40%;
+  height: 40%;
+  overflow: hidden;
+  font-size: 40;
+  border-style: dotted;
+}
+
+.old{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+
+}
+
+.box1{
+  margin-top: 10px;
+  background-color: rgba(53, 49, 240, 0.37);
+  width: 275px;
+  height: auto;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+
+}
+
+.box2{
+  margin-top: 10px;
+  background-color: rgba(240, 49, 113, 0.37);
+  width: 500px;
+  height: auto;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.box3{
+  margin-top: 10px;
+  background-color: rgba(49, 218, 240, 0.37);
+  width: 425px;
+  height: auto;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.box4{
+  margin-top: 10px;
+  background-color: rgba(237, 240, 49, 0.37);
+  width: 425px;
+  height: auto;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.box5{
+  margin-top: 10px;
+  background-color: rgba(132, 0, 255, 0.37);
+  width: 425px;
+  height: auto;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.box6{
+  margin-top: 10px;
+  background-color: rgba(161, 243, 9, 0.37);
+  width: 1000px;
+  height: auto;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.box7{
+  margin-top: 10px;
+  background-color: rgba(0, 4, 255, 0.37);
+  width: 425px;
+  height: auto;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.box8{
+  margin-top: 10px;
+  background-color: rgba(240, 71, 49, 0.37);
+  width: 1000px;
+  height: auto;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
 }
 
 
+.img {
+  display: flex;
+  justify-content: left;
+  
+}
+
+.img6 {
+  flex-basis: 19%;
+}
+
+.img8 {
+  flex-basis: 19%;
+}
+.text{
+  margin: 10px;
+}
